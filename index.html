@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build Yourself: A Self-Growth Recipe Book</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Build Yourself</h1>
+    <p>Select a self-growth recipe and take the next step forward.</p>
+  </header>
+
+  <main>
+    <section id="recipe-list"></section>
+    <section id="recipe-detail" class="hidden">
+      <h2 id="recipe-title"></h2>
+      <h3>Ingredients</h3>
+      <ul id="ingredients"></ul>
+      <h3>Instructions</h3>
+      <p id="instructions"></p>
+
+      <div class="mood-tracker">
+        <label for="mood-before">Mood Before:</label>
+        <select id="mood-before">
+          <option value="">--Select--</option>
+          <option value="Calm">Calm</option>
+          <option value="Anxious">Anxious</option>
+          <option value="Neutral">Neutral</option>
+        </select>
+
+        <label for="mood-after">Mood After:</label>
+        <select id="mood-after">
+          <option value="">--Select--</option>
+          <option value="Calm">Calm</option>
+          <option value="Empowered">Empowered</option>
+          <option value="Focused">Focused</option>
+        </select>
+
+        <button id="log-mood">Log Mood</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Self-care streak: <span id="streak">0</span> days</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

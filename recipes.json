@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Focus Reset",
+    "ingredients": [
+      "5-minute breathing session",
+      "Turn off phone notifications",
+      "List 3 goals"
+    ],
+    "instructions": "Find a quiet space. Breathe deeply for 5 minutes. Remove digital distractions. Write down 3 goals and focus on the first."
+  },
+  {
+    "id": 2,
+    "title": "Confidence Boost",
+    "ingredients": [
+      "Write 3 accomplishments",
+      "Say one positive affirmation aloud",
+      "Stand in power pose for 2 mins"
+    ],
+    "instructions": "Take a deep breath. Write down 3 things you’re proud of. Say your affirmation confidently and stand tall in a mirror for 2 minutes."
+  },
+  {
+    "id": 3,
+    "title": "Calm Down Ritual",
+    "ingredients": [
+      "Play calm music",
+      "Dim the lights",
+      "Stretch slowly"
+    ],
+    "instructions": "Put on soothing music and dim your surroundings. Stretch slowly from head to toe, focusing on your breath and letting tension go."
+  }
+]
